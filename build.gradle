@@ -15,10 +15,9 @@ buildscript {
         interceptor_version = "4.7.2"
         easypermission_version = "3.0.0"
         navigationresult_version = "1.0.1"
-        gson_version = "2.8.6"
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:4.0.2"
+        classpath 'com.android.tools.build:gradle:7.0.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong

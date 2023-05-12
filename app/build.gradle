@@ -5,7 +5,7 @@ apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "29.0.3"
+    buildToolsVersion '30.0.3'
 
     defaultConfig {
         applicationId "com.harmoush.photoweather"
@@ -66,8 +66,8 @@ dependencies {
 
     // testing dependencies
     testImplementation 'junit:junit:4.13'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.1'
@@ -101,7 +101,7 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
     implementation "com.squareup.okhttp3:logging-interceptor:$interceptor_version"
 
-    implementation "com.google.code.gson:gson:$gson_version"
+    implementation "com.google.code.gson:gson:2.8.1"
 
     //EasyPermissions is a wrapper library to simplify basic system permissions logic when targeting Android M or higher.
     implementation "pub.devrel:easypermissions:$easypermission_version"
