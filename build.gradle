@@ -6,10 +6,10 @@ buildscript {
     }
     ext {
         lifecycle_version = "2.2.0"
-        kotlin_version = "1.4.10"
+        kotlin_version = '1.9.22'
         nav_version = "2.3.0"
         koin_version = "2.2.0-alpha-1"
-        room_version = "2.2.5"
+        room_version = "2.6.1"
         glide_version = "4.11.0"
         retrofit_version = "2.9.0"
         interceptor_version = "4.7.2"
@@ -17,12 +17,14 @@ buildscript {
         navigationresult_version = "1.0.1"
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath 'com.android.tools.build:gradle:8.3.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+
     }
+
 }
 
 allprojects {
